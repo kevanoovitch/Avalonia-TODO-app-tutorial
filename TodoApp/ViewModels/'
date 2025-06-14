@@ -1,0 +1,12 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace Avalonia.Samples.CompleteApps.SimpleToDoList.ViewModels;
+
+public partial class TodoItemViewModel : ObservableObject 
+                                      {
+                                      [OvservableProperty]
+                                      private bool _isChecked;
+  
+                                      [OvservableProperty]
+                                      private string _title;
+                                      }
