@@ -18,7 +18,7 @@
         x:Name="Root">
     
     <!-- This is our title block. --> 
-    <TextBlock Text="My ToDo-List" /> 
+    <TextBlock Classes="h1" Text="The ToDo-List" /> 
 
     <ScrollViewer Grid.Row="1">
     <!-- This ItemsControl show all added ToDoItems. -->
@@ -36,7 +36,7 @@
             <Button Command="{Binding #Root.((vm:MainWindowViewModel)DataContext).RemoveItemCommand}"
                     CommandParameter="{Binding .}"
                 Grid.Column="1">
-                Delete 
+                <PathIcon Data="{DynamicResource DelteIconData}" Foreground="Red" /> 
               </Button>
             </Grid>
           </DataTemplate>
