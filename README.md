@@ -2,6 +2,9 @@
 This is just an app created by following the following sample tutorial:
 [Sample](https://github.com/AvaloniaUI/Avalonia.Samples/tree/main/src/Avalonia.Samples/CompleteApps/SimpleToDoList).
 
+# My App 
+![Screenshot](/Images/todoApp.png)
+
 # Dependencies 
 - .NET 9.0 SDK or higher
 
